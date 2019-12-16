@@ -205,7 +205,7 @@ body {
     font-weight: 200;
   }
 
-  .btn {
+.btn {
     padding: 1rem 2.75rem;
     text-transform: uppercase;
     font-size: 20px;
@@ -220,27 +220,41 @@ body {
   }
 
   .card {
-      height: 100%;
+      height: 310px;
   }
 
   .card-img-top{
-      height: 52px;
-      width: auto;
+      margin-top: 50px;
+      width: 52px;
+      height: auto;
   }
-  
+
   .card-title {
-      margin-bottom: 2.375rem;
+      margin-bottom: 30px;
     text-transform: uppercase;
     font-size: 1rem;
     color: #7f8c8c;
     font-weight: 800;
     text-align: center;
   }
-
+  .card-body {
+      position: relative;
+      padding-top: 10px;
+  }
   .card-text {
     font-size: 13px;
     line-height: 21px;
     color: #777777;
     font-weight: 400;
     text-align: center;
+  }
+
+  .card .btn {
+      position: absolute;
+      bottom: -25px;
+      text-transform: lowercase;
+      font-size: 16px;
+      background-color: #76c7c0;
+      border: none;
+      border-bottom: 2px solid #62bdbd;
   }
