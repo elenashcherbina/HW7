@@ -10,8 +10,10 @@ body {
 .header {
     background-color: #76c7c0;
 }
+
+
 .navbar {
-    margin-left: auto;
+    max-width: 1110px;
     padding: 1.5rem 1rem;
 }
 .navbar-brand,
@@ -152,7 +154,7 @@ body {
     color: #ffffff;
 }
 
-.slide .carousel-inner .carousel-item .carousel-caption p  {
+.carousel-inner .carousel-item .carousel-caption p  {
     width: 60%;
     background-color: #3f4646;
     padding: 15px 40px;
@@ -164,7 +166,25 @@ body {
     font-family: "Open Sans";
     font-weight: 400;
 }
+.carousel-indicators {
+    position: absolute;
+    bottom: -54px; 
+}
+.carousel-indicators li {
+    background-color: #b0b8b9;
+    width: 60px;
+    height: 6px;
+}   
+
+.carousel-indicators li:not(:last-child) {
+    margin-right: 10px;
+} 
+
+.carousel-indicators > .active {
+    background-color: #e2534b;
+}
 .main {
+    padding-top: 50px;
     background-color: #f3f3f3;
 }
 .jumbotron {
@@ -173,13 +193,8 @@ body {
     padding: 1.5625rem;
   }
 
-  .jumbotron .container {
-    padding-left: 0;
-  }
-
   .display-4 {
     color: #7f8c8c;
-    font-family: "Open Sans";
     font-weight: 600;
     margin-bottom: 1rem;
   }
@@ -198,9 +213,21 @@ body {
     font-weight: 600;
     background-color: #e8645a;
   }
-  .card-img-top {
-      fill: #62bdbd;
+
+  .btn:hover {
+    color: #ffffff;
+    background-color: #76c7c0;
   }
+
+  .card {
+      height: 100%;
+  }
+
+  .card-img-top{
+      height: 52px;
+      width: auto;
+  }
+  
   .card-title {
       margin-bottom: 2.375rem;
     text-transform: uppercase;

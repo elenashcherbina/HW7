@@ -12,7 +12,7 @@
   </head>
   <body>
       <header class="header">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg m-auto">
               <a class="navbar-brand" href="#">Modus<span>versus</span>
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
@@ -37,7 +37,7 @@
                       aria-expanded="false">
                       Portfolio
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu drop-left" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="#">Potrfolio 2 column page</a>
                       <a class="dropdown-item" href="#">Potrfolio 2 column page</a>
                       <a class="dropdown-item" href="#">Potrfolio 2 column page</a>
@@ -64,7 +64,7 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
-      <div class="carousel-inner">
+      <div class="carousel-inner m-auto d-md-block">
         <div class="carousel-item active">
           <div class="carousel-caption  d-md-block">
             <h3>VESTIBULUM</h3>
@@ -94,6 +94,79 @@
       </a>
     </div>
   </div>
+  <main class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!--JUMBORTON-->
+          <div class="jumbotron">
+            <div class="container">
+              <div class="row">
+                <div class="col-9">
+                  <h1 class="display-4">Some of our top services</h1>
+                  <p class="lead">Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero
+                    lectus mattis orci, ut commodo.</p>
+                </div>
+                <div class="col-3 m-auto">
+                  <button type="button" class="btn m-auto d-block">view more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--CARDS-->
+          <div class="container">
+            <div class="row">
+              <div class="col-3">
+                <div class="card">
+                  <img src="img/services-hand-icon.svg" class="card-img-top mx-auto" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">SUSPENDISSE</h5>
+                    <p class="card-text"> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula
+                      ut nunc.</p>
+                    <a href="#" class="btn btn-primary">read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card">
+                  <img src="img/services-key-icon.svg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">MAECENAS</h5>
+                    <p class="card-text"> Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero
+                      lectus mattis orci, ut commodo.</p>
+                    <a href="#" class="btn btn-primary">read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card">
+                  <img src="img/services-flag-icon.svg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">ALIQUAM </h5>
+                    <p class="card-text"> Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui
+                      tempor non. </p>
+                    <a href="#" class="btn btn-primary">read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card">
+                  <img src="img/services-colb-icon.svg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">HABITASSE</h5>
+                    <p class="card-text">Astehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non. </p>
+                    <a href="#" class="btn btn-primary">read more</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -212,79 +285,7 @@
     </div>
   </div>
   <!--MAIN CONTENT
-  <main class="main" style="display:none">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <!--JUMBORTON
-          <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <div class="row">
-                <div class="col-9">
-                  <h1 class="display-4">Some of our top services</h1>
-                  <p class="lead">Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero
-                    lectus mattis orci, ut commodo.</p>
-                </div>
-                <div class="col-3 m-auto">
-                  <button type="button" class="btn m-auto d-block">view more</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--CARDS
-          <div class="container">
-            <div class="row">
-              <div class="col-3">
-                <div class="card">
-                  <img src="img/services-hand-icon.svg" class="card-img-top mx-auto" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">SUSPENDISSE</h5>
-                    <p class="card-text"> Quisque id tellus quis risus vehicula vehicula ut turpis. In eros nulla, placerat vitae at, vehicula
-                      ut nunc.</p>
-                    <a href="#" class="btn btn-primary">read more</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3">
-                <div class="card">
-                  <img src="img/services-key-icon.svg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">MAECENAS</h5>
-                    <p class="card-text"> Ut eleifend libero sed neque rhoncus consequat. Maecenas tincidunt, augue et rutrum condimentum, libero
-                      lectus mattis orci, ut commodo.</p>
-                    <a href="#" class="btn btn-primary">read more</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3">
-                <div class="card">
-                  <img src="img/services-flag-icon.svg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">ALIQUAM </h5>
-                    <p class="card-text"> Vivamus eget ante bibendum arcu vehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui
-                      tempor non. </p>
-                    <a href="#" class="btn btn-primary">read more</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3">
-                <div class="card">
-                  <img src="img/services-colb-icon.svg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">HABITASSE</h5>
-                    <p class="card-text">Astehicula ultricies. Integer venenatis mattis nisl, vitae pulvinar dui tempor non. </p>
-                    <a href="#" class="btn btn-primary">read more</a>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </main>
+  
 
 
   <!-- Optional JavaScript -->
